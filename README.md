@@ -38,7 +38,7 @@
 <ruby><rb>千の魔剣</rb><rp>（</rp><rtc><rt>サウザンド</rt></rtc><rp>）</rp></ruby>と<ruby><rb>盾の乙女</rb><rp>（</rp><rtc><rt>イージス</rt></rtc><rp>）</rp></ruby>
 ```
 
-### 拡張
+### 拡張記法
 
 #### ASCII代替文字
 
@@ -52,9 +52,9 @@
 閃烈の<ruby><rb>神なる御手</rb><rp>（</rp><rtc><rt>ヘカトンケイル</rt></rtc><rp>）</rp></ruby>
 ```
 
-#### ルビ範囲判別
+#### 文字種判別
 
-ルビ範囲が明示的に指定されなかった場合、[UAX24 Unicode Script Property](http://unicode.org/reports/tr24/) に従ってルビ範囲が判定されます。
+ルビ範囲が明示的に指定されなかった場合、[UAX24 Unicode Script Property](http://unicode.org/reports/tr24/) で指定された文字種に従ってルビ範囲が判定されます。
 
 そのため、一部の文字は青空記法とルビ範囲の判定が異なります。例えば、 `〆` (U+3006) は青空記法では漢字に分類されますが、拡張記法では分類されません。
 
