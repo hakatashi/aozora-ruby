@@ -1,5 +1,7 @@
 # aozora-ruby
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hakatashi/aozora-ruby.svg)](https://greenkeeper.io/)
+
 :stuck_out_tongue:青空記法のルビ(を拡張したもの)を他形式に変換する:stuck_out_tongue:
 
 ## フォーマット
